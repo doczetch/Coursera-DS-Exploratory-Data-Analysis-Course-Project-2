@@ -2,6 +2,7 @@
 
 ## By: Cecilia Cruz-Ram, MD DPCOM
 
+
 ## Introduction:
 
 
@@ -32,7 +33,7 @@ PM2.5 Emissions Data (𝚜𝚞𝚖𝚖𝚊𝚛𝚢𝚂𝙲𝙲_𝙿𝙼𝟸𝟻.
 for 1999, 2002, 2005, and 2008. For each year, the table contains number of <b>tons</b> of PM2.5 emitted from a 
 specific type of source for the entire year. Here are the first few rows.
 
-![screenshot of table1](table1)
+![screenshot of table1](table1.png)
 
 * <b>𝚏𝚒𝚙𝚜</b>: A five-digit number (represented as a string) indicating the U.S. county
 * <b>𝚂𝙲𝙲</b>: The name of the source as indicated by a digit string (see source code classification table)
@@ -50,9 +51,7 @@ you think are most useful. For example, source “10100101” is known as “Ext
 You can read each of the two files using the 𝚛𝚎𝚊𝚍𝚁𝙳𝚂() function in R. For example, reading in each file can be
 done with the following code:
 
-![screenshot of table2](table2)
-
-
+![screenshot of table2](table2.png)
 
 as long as each of those files is in your current working directory (check by calling 𝚍𝚒𝚛() and see if those 
 files are in the listing).
